@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNG</title>
+    <link rel="stylesheet" href="./assests/css/output.css">
+
+  </head>
+  <body class="bg-blue-500 ">
+    <div class="bg-white max-w-xs sm:max-w-lg rounded mt-10 mx-auto p-4">
+      <div class="flex items-center justify-between">
+         <h1 class="font-bold text-blue-700">Trip Calculator</h1>
+      </div>
+      <form class="mt-4 space-y-4">
+        <div>
+          <label for="trip-distance" class="form-label">Trip Distance</label>
+          <input type="number" id="distance" placeholder=" Enter Trip Distance" class="form-input"  required>
+        </div>
+        <!--Fuel efficiency-->
+        <div>
+          <label for="trip-distance" class="form-label">Fuel Efficiency</label>
+          <input type="number" id="fuel" placeholder=" Enter Fuel Efficiency" class="form-input"  required>
+        </div>
+        <!--Fuel cost-->
+        <div>
+          <label for="trip-distance" class="form-label">Fuel Cost</label>
+          <input type="number" id="cost" placeholder=" Enter Fuel Cost" class="form-input"  required>
+        </div>
+        <div>
+          <button id="btn" class="py-2 bg-red-500 text-white w-full rounded font-medium ">Calculate</button>
+        </div>
+        <div id="result" class="text-black font-bold"> </div>
+
+      </form>
+    </div>
+    <script src="./assests/css/main.js"></script>
+  </body>
+</html>
